@@ -19,7 +19,7 @@ const packageNames = [
   "Comprehensive Allergy Panel with Drugs"
 ];
 
-const packagePrices = [1899, 1899, 1899, 999, 2250, 3500, 12000];
+const packagePrices = [2450, 2450, 2450, 999, 2950, 3500, 12000];
 
 export default function InvoiceForm() {
   const [checkedBox, setCheckedBox] = useState([false, false, false, false, false, false, false]);
